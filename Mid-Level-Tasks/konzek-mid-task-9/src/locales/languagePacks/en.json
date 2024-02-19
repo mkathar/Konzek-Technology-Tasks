@@ -1,0 +1,18 @@
+{
+  "language_TR": "Turkish",
+  "language_EN": "English",
+  "language_FR": "French",
+  "header.logo": "My Site",
+  "header.home": "Home",
+  "header.about": "About",
+  "home.title": "Welcome to the Home Page",
+  "home.content__title": "History of Computers: In the Footsteps of Time",
+  "home.content__story": "Long ago, even the most primitive machines held a mystery heralding the age of computers. As humanity began to understand how computers worked, an evolution wave began. The first computers occupied vast rooms and were only accessible to scientists. Over time, computers became smaller and more powerful. Microchips and circuits brought computers into everyone's homes. With the advent of the internet, people from all over the world connected, and the flow of information became faster than ever. Today, the small devices we carry in our pockets have replaced those massive machines. However, computers continue to remain the cornerstone of technological advancement.",
+  "about.title": "Welcome to the About Me Page Here are general informations.",
+  "about.content__title": "Technologies and Libraries Used on This Website",
+  "about.content__listItem-1": "React.js",
+  "about.content__listItem-2": "Redux-INTL",
+  "about.content__listItem-3": "SCSS-BEM Methodology",
+  "about.content__listItem-4": "React-Router",
+  "about.content__desc": "This website is a simple example application where dynamic content translation is done using the technologies and libraries listed within the website. Due to time constraints regarding content for the application, I focused on functionality and implemented a simple design."
+}

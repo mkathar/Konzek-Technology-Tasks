@@ -1,0 +1,70 @@
+.products {
+  @include flexbox-align-center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+
+  row-gap: 3rem;
+  padding-top: 5vh;
+
+  &__title {
+    color: $signature-color;
+    margin-left: 5rem;
+  }
+  &__group {
+    margin-left: 5rem;
+    @include flexbox-justify-center;
+    column-gap: 7%;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  &__item {
+    background-color: $white;
+    padding: 3rem 1rem 0 1rem;
+    @include flexbox-justify-center;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    width: 17%;
+
+    &__img {
+      width: 100%;
+      height: 80%;
+      object-fit: fill;
+    }
+
+    &__content {
+      @include flexbox-center-space-between;
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 30%;
+      &__name {
+        overflow: hidden;
+        height: 60px;
+      }
+
+      &__price {
+        display: flex;
+      }
+    }
+  }
+  &__btn {
+    width: 15%;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid $signature-color;
+    background-color: $signature-color;
+    color: $white;
+    font-weight: 700;
+    margin-left: 5rem;
+  }
+  &__btn:hover {
+    background-color: transparent;
+    color: $signature-color;
+    border: 1px solid $signature-color;
+  }
+  &__wait {
+    width: 80%;
+    color: $signature-color;
+  }
+}

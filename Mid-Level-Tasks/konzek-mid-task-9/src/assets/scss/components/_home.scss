@@ -1,0 +1,23 @@
+.home {
+  width: 80%;
+  margin: 0 auto;
+  height: 70vh;
+  @include flexbox-center;
+  flex-direction: column;
+  row-gap: 2rem;
+  background-color: $gray;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 15px;
+  color: $white;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    &__title {
+    }
+    &__story {
+    }
+  }
+}

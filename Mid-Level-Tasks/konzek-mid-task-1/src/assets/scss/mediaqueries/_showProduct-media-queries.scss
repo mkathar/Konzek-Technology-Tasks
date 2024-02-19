@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+  .products {
+    margin-top: 5vh;
+    &__title {
+      margin: 0;
+    }
+
+    &__group {
+      margin: 0;
+      width: 80%;
+    }
+
+    &__item {
+      width: 30%;
+      &__img {
+        width: 100%;
+        height: 80%;
+        object-fit: fill;
+      }
+
+      &__content {
+        @include flexbox-align-center;
+        flex-direction: column;
+
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 30%;
+        font-size: 11px;
+        text-align: center;
+        &__name {
+          overflow: hidden;
+          height: 40%;
+        }
+
+        &__price {
+          display: flex;
+        }
+      }
+    }
+    &__btn {
+      margin: 0;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .products {
+    &__title {
+      margin-left: 5rem;
+    }
+
+    &__group {
+      margin-left: 5rem;
+      width: 80%;
+    }
+
+    &__item {
+      width: 20%;
+      &__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &__price {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}

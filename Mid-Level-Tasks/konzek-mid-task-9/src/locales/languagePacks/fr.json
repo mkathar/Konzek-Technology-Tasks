@@ -1,0 +1,18 @@
+{
+  "language_TR": "Turc",
+  "language_EN": "Anglais",
+  "language_FR": "Français",
+  "header.logo": "Mon Site",
+  "header.home": "Accueil",
+  "header.about": "À propos",
+  "home.title": "Bienvenue sur la Page d'Accueil",
+  "home.content__title": "Histoire de l'Informatique : Sur les Traces du Temps",
+  "home.content__story": "Il y a longtemps, même les machines les plus primitives portaient en elles un mystère annonciateur de l'ère des ordinateurs. Au fur et à mesure que l'humanité commençait à comprendre le fonctionnement des ordinateurs, une vague d'évolution débutait. Les premiers ordinateurs occupaient des salles immenses et n'étaient accessibles qu'aux scientifiques. Avec le temps, les ordinateurs sont devenus plus petits et plus puissants. Les microchips et les circuits ont permis d'amener les ordinateurs dans tous les foyers. Avec l'avènement d'Internet, des personnes du monde entier se sont connectées, et le flux d'informations est devenu plus rapide que jamais. Aujourd'hui, les petits appareils que nous transportons dans nos poches ont remplacé ces machines massives. Cependant, les ordinateurs continuent de rester la pierre angulaire du progrès technologique.",
+  "about.title": "Bienvenue sur la Page À Propos Voici des informations générales.",
+  "about.content__title": "Technologies et Bibliothèques Utilisées sur Ce Site Web",
+  "about.content__listItem-1": "React.js",
+  "about.content__listItem-2": "Redux-INTL",
+  "about.content__listItem-3": "Méthodologie SCSS-BEM",
+  "about.content__listItem-4": "React-Router",
+  "about.content__desc": "Ce site web est un exemple d'application simple où la traduction du contenu dynamique est effectuée à l'aide des technologies et des bibliothèques répertoriées dans le site web. En raison de contraintes de temps concernant le contenu de l'application, j'ai mis l'accent sur la fonctionnalité et mis en œuvre un design simple."
+}

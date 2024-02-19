@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .list {
+    &__group {
+      &__box {
+        width: 20%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .list {
+    &__group {
+      &__box {
+        width: 14%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1201px) {
+}

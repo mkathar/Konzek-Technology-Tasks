@@ -1,0 +1,28 @@
+.header {
+  @include flexbox-center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-color: $signature-color;
+  &__title {
+    margin: 1rem 0 1rem 0;
+    color: $white;
+  }
+  &__category {
+    width: 80%;
+    @include flexbox-center-space-around;
+
+    &__button {
+      background-color: transparent;
+      color: $white;
+      border: none;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      &--active {
+        background-color: $white;
+        color: $signature-color;
+      }
+    }
+  }
+}

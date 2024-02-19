@@ -1,0 +1,18 @@
+{
+  "language_TR": "Türkçe",
+  "language_EN": "İngilizce",
+  "language_FR": "Fransızca",
+  "header.logo": "Benim Sitem",
+  "header.home": "Ana Sayfa",
+  "header.about": "Hakkında",
+  "home.title": "Ana Sayfaya Hoşgeldin",
+  "home.content__title": "Bilgisayar Tarihi: Zamanın İzinde",
+  "home.content__story": "Uzun zaman önce, bir zamanlar dünyanın en ilkel makineleri bile bilgisayar çağını müjdeleyen bir gizemi saklıyordu. İnsanoğlu, bilgisayarların nasıl çalıştığını anlamaya başladığında, bir evrim dalgası başlamıştı. İlk bilgisayarlar devasa odalarda yer kaplıyor ve sadece bilim adamlarının erişimine açıktı.Zamanla, bilgisayarlar daha küçük ve daha güçlü hale geldi. Mikroçipler ve devreler, bilgisayarları herkesin evine taşıdı. İnternetin doğuşuyla, dünyanın her yerinden insanlar birbirine bağlandı ve bilgi akışı hiç olmadığı kadar hızlı hale geldi. Bugün, cep telefonlarımızda taşıdığımız küçük cihazlar, o devasa makinelerin yerini aldı. Ancak bilgisayarlar, teknolojik gelişmenin temel taşı olarak kalmaya devam ediyor.",
+  "about.title": "Hakkımda Sayfasına Hoşgeldin Burada genel bilgiler var.",
+  "about.content__title": "Bu Websitesinde kullanılan teknolojiler ve kütüphaneler",
+  "about.content__listItem-1": "React.js",
+  "about.content__listItem-2": "Redux-INTL",
+  "about.content__listItem-3": "SCSS-BEM Metodolojisi",
+  "about.content__listItem-4": "React-Router",
+  "about.content__desc": "Websitesi içerisinde listedeki teknolojiler ve kütüphaneler kullanılarak dinamik içerik çevirisi yapılan basit bir örnek uygulamadır. Uygulama için içerik konusunda zaman endişelerim olduğu için işlevselliği ön planda tutup sade bir çalışma gerçekleştirdim "
+}

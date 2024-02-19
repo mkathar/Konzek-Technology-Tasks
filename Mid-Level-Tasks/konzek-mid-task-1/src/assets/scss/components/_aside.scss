@@ -1,0 +1,43 @@
+.aside {
+  position: fixed;
+  width: 15%;
+  color: $white;
+
+  background-color: $signature-color;
+  height: fit-content;
+  left: 0;
+  top: 20vh;
+  padding: 1rem;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+    }
+  }
+  &__filter {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    row-gap: 0.5rem;
+    &__input {
+      height: 40px;
+      width: 100%;
+    }
+    &__group {
+      display: flex;
+      justify-content: space-between;
+      &__input {
+        height: 40px;
+        width: 45%;
+      }
+    }
+    &__button {
+      margin-top: 1rem;
+      padding: 0.5rem 0;
+
+      color: $signature-color;
+      background-color: $white;
+      border: none;
+    }
+  }
+}

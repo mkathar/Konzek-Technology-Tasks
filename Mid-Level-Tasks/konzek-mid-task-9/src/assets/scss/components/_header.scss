@@ -1,0 +1,26 @@
+.header {
+  @include flexbox-center-space-around;
+  height: 40px;
+
+  font-family: "Roboto", sans-serif;
+  background-color: $signature-color;
+  &__title {
+    margin: 1rem 0 1rem 0;
+    color: $white;
+  }
+  &__list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 2rem;
+    &__item a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+  &__select {
+    background-color: $white;
+    color: $signature-color;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+}
