@@ -1,40 +1,25 @@
-# Konzek-Junior-Task-Vue
+## Junior Front-End Developer Task: Vue.js Application
 
-This template should help get you started developing with Vue 3 in Vite.
+### Task
 
-## Recommended IDE Setup
+1. Query a public GraphQL API and display the results in a list. The functionality is already provided, but you can modify the query as needed.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+   - The code currently utilizes the public Countries API. More information can be found [here](https://studio.apollographql.com/public/countries/home?variant=current).
 
-## Type Support for `.vue` Imports in TS
+2. Create a text filter above the list to filter and group the results.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+   - For example, entering "search:tt group:size" would search for results containing "tt" and group those results by the value of a "size" field.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+3. Create items in the list that are selectable and deselectable by clicking on them. Only one item can be selected at a time.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+   - The background color of the selected item should differ from that of unselected items.
 
-## Customize configuration
+   - The background color used for the selected item should be chosen from a predefined set of colors (which you should define yourself). Ensure that when an item is selected, the color is different from the previously selected item.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+4. After loading the items and filtering, automatically select the 10th item, or the last one if the number of items is less than 10. The implementation should consider that the list can become very long.
 
-## Project Setup
+### Additional Notes
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Utilize TypeScript where possible.
+- You're permitted to use open-source packages as needed.
+- Anything not mentioned in the description is up to you.

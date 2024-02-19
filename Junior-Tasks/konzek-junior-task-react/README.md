@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Junior Front-End Developer Task: React.js Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Task
 
-## Available Scripts
+1. Query a public GraphQL API and display the results in a list. The functionality is already provided, but you can modify the query as needed.
 
-In the project directory, you can run:
+   - The code currently utilizes the public Countries API. More information can be found [here](https://studio.apollographql.com/public/countries/home?variant=current).
 
-### `npm start`
+2. Create a text filter above the list to filter and group the results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - For example, entering "search:tt group:size" would search for results containing "tt" and group those results by the value of a "size" field.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Create items in the list that are selectable and deselectable by clicking on them. Only one item can be selected at a time.
 
-### `npm test`
+   - The background color of the selected item should differ from that of unselected items.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - The background color used for the selected item should be chosen from a predefined set of colors (which you should define yourself). Ensure that when an item is selected, the color is different from the previously selected item.
 
-### `npm run build`
+4. After loading the items and filtering, automatically select the 10th item, or the last one if the number of items is less than 10. The implementation should consider that the list can become very long.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Additional Notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Utilize TypeScript where possible.
+- You're permitted to use open-source packages as needed.
+- Anything not mentioned in the description is up to you.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  After the items are loaded and after filtering, automatically select the 10th item, or the last one if the amount of items is smaller than 10 The implementation should take into account that the list can get very long.
 
-### `npm run eject`
+Additional notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Use Typescript where possible
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    You're allowed to use open-source packages as you see fit.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Anything not in the description is up to you.
