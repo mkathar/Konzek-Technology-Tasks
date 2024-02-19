@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #6665ee;
+}
+.header__title {
+  color: white;
+}
+.header__input {
+  height: 40px;
+  outline: 0;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+}
+
+.list {
+  font-family: "Roboto", sans-serif;
+}
+.list__group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.list__group__box {
+  text-align: center;
+  width: 8%;
+  height: 25vh;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.list__group__box__emoji {
+  font-size: 4rem;
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .list__group__box {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .list__group__box {
+    width: 14%;
+  }
+}/*# sourceMappingURL=index.css.map */
